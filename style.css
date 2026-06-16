@@ -224,6 +224,8 @@ h3 {
     display: grid;
     grid-template-columns: 1.3fr 0.7fr;
     gap: 2rem;
+
+    margin-bottom: 1rem;
 }
 
 .project-card p + p {
