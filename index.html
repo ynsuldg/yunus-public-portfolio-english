@@ -162,21 +162,24 @@
 
         <article class="project-card">
             <div>
-                <h3>E-commerce Platform with Microservices Architecture</h3>
+                <h3>Webshop with Microservices</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work group">Team Project</span>
+                    <span class="project-course">Course 5: Web Services and Integrations</span>
+                </div>
 
                 <p>
-                    Developed the backend of an e-commerce platform using a microservices
-                    architecture. The system consisted of an Authentication Server,
-                    Product Service, Order Service, and Email Service. Services
-                    communicated through REST APIs and RabbitMQ, while JWT was used
-                    for authentication and PostgreSQL for data persistence.
+                    Backend for a webshop built with a microservice architecture. The system
+                    consists of an Auth Server, Product Service, Order Service and
+                    Email Service. Communication is handled through REST and RabbitMQ,
+                    JWT is used for authentication, and PostgreSQL is used for data storage.
                 </p>
 
                 <p>
-                    My primary responsibility was the Order Service, where I implemented
-                    order processing logic, integrated communication with the Product
-                    Service, handled JWT token propagation, and developed RabbitMQ-based
-                    asynchronous messaging.
+                    My main responsibility was the Order Service, where I worked with order logic,
+                    communication with the Product Service, JWT forwarding and RabbitMQ integration.
                 </p>
             </div>
 
@@ -196,20 +199,24 @@
             <div>
                 <h3>Google Gemini AI Integration</h3>
 
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 5: Web Services and Integrations</span>
+                </div>
+
                 <p>
-                    Developed a web application using Spring Boot integrated with
-                    Google Gemini through a REST API. Users can submit questions
-                    through a web interface and receive AI-generated responses
-                    in real time.
+                    Web application developed with Spring Boot and integrated with Google Gemini
+                    through a REST API. Users can ask questions through a web interface
+                    and receive AI-generated answers in real time.
                 </p>
 
                 <p>
-                    The application uses Thymeleaf for the frontend, PostgreSQL for
-                    data storage, and Spring Data JPA for database access. Questions
-                    and responses are stored and displayed in a history view. The
-                    Gemini integration was implemented manually using HTTP requests
-                    and JSON payloads to gain a deeper understanding of API communication
-                    and third-party service integration.
+                    The solution uses Thymeleaf for the frontend, PostgreSQL for data storage
+                    and Spring Data JPA for database access. Each question and answer is saved
+                    in the database and displayed in a history view. The Gemini integration
+                    was implemented manually using HTTP requests and JSON data to gain a
+                    deeper understanding of API communication and external services.
                 </p>
             </div>
 
@@ -218,7 +225,7 @@
                 <span>Spring Boot</span>
                 <span>REST API</span>
                 <span>JSON</span>
-                <span>Google Gemini API</span>
+                <span>Google Gemini</span>
                 <span>PostgreSQL</span>
                 <span>Spring Data JPA</span>
                 <span>Thymeleaf</span>
@@ -229,19 +236,26 @@
 
         <article class="project-card">
             <div>
-                <h3>Two-Factor Authentication with Authenticator Apps</h3>
+                <h3>Two-Factor Authentication with Authenticator App</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 4: Advanced Java Programming</span>
+                </div>
 
                 <p>
-                    Built a secure authentication system using Spring Boot and Spring Security.
-                    Users can register, enable or disable two-factor authentication, and
-                    log in using both a password and a time-based one-time password (TOTP)
-                    generated by Microsoft Authenticator or Google Authenticator.
+                    Standalone project where I developed a secure authentication flow using
+                    Spring Boot and Spring Security. Users can register, choose whether to
+                    enable two-factor authentication, and then log in using a password
+                    together with a time-based verification code generated by Microsoft
+                    Authenticator or Google Authenticator.
                 </p>
 
                 <p>
-                    The application generates and stores a secret key in PostgreSQL and
-                    embeds it into a QR code that can be scanned by an authenticator app.
-                    Protected pages require both successful authentication and MFA verification.
+                    The application generates a secret key that is stored in PostgreSQL and
+                    embedded into a QR code that can be scanned by an authenticator app.
+                    Protected pages require both a successful login and a verified MFA code.
                 </p>
             </div>
 
@@ -260,20 +274,27 @@
 
         <article class="project-card">
             <div>
-                <h3>Secure E-commerce Platform</h3>
+                <h3>Secure Webshop</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work group">Team Project</span>
+                    <span class="project-course">Course 4: Advanced Java Programming</span>
+                </div>
 
                 <p>
-                    Contributed to the development of a secure e-commerce platform built
-                    with Spring Boot. The system includes user registration, authentication,
-                    product catalog management, shopping cart functionality, order processing,
-                    profile management, GDPR-compliant cookie handling, and administrative features.
+                    Secure webshop built with Spring Boot. The system includes user
+                    registration, authentication, product catalog, shopping cart, order
+                    management, user profile, GDPR-compliant cookie handling and
+                    administrator features. Order confirmations are sent through a
+                    dedicated Message Service responsible for email delivery.
                 </p>
 
                 <p>
-                    My primary responsibility was the product domain, including the Product
-                    entity, repository and service layers, product management views,
-                    administrative product creation functionality, and automated testing
-                    using both H2 and mocked repositories.
+                    My primary responsibility was the product module, where I worked on
+                    the Product entity, ProductRepository, ProductService, the product
+                    page, administrator functionality for creating products, and testing
+                    using both an H2 database and mocked repositories.
                 </p>
             </div>
 
@@ -295,20 +316,23 @@
             <div>
                 <h3>Real-Time Chat Application with Jakarta EE and WebSocket</h3>
 
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 4: Advanced Java Programming</span>
+                </div>
+
                 <p>
-                    Developed a web application using Jakarta EE and WebSocket technologies
-                    for user management and real-time communication. The system includes
-                    user registration, authentication, session management, PostgreSQL
-                    persistence, and a chat feature that allows connected users to exchange
-                    messages instantly.
+                    Developed a web application using Jakarta EE where users can register,
+                    log in and communicate in real time. The application uses JSF as the
+                    presentation layer, CDI for dependency injection, JPA for persistence,
+                    and PostgreSQL for storing user accounts.
                 </p>
 
                 <p>
-                    I implemented the complete user flow from registration to authentication
-                    using JSF, CDI, and JPA. The solution included an AppUser entity,
-                    service and repository layers, SessionScoped bean management, and
-                    integration between the Jakarta EE application and a separate
-                    WebSocket server for real-time messaging.
+                    Implemented user registration, authentication and session management,
+                    as well as a separate WebSocket server that enables real-time
+                    communication by broadcasting messages between connected clients.
                 </p>
             </div>
 
@@ -320,7 +344,6 @@
                 <span>JPA</span>
                 <span>WebSocket</span>
                 <span>PostgreSQL</span>
-                <span>Session Management</span>
                 <span>Maven</span>
                 <span>MVC</span>
             </div>
@@ -328,23 +351,29 @@
 
         <article class="project-card">
             <div>
-                <h3>JavaTools – CRUD Application with Spring Boot, Docker and CI/CD</h3>
+                <h3>JavaTools – Spring Boot CRUD Application</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work group">Team Project + Individual Extension</span>
+                    <span class="project-course">Course 3: Java Tools and Build Environments</span>
+                </div>
 
                 <p>
-                    Developed a group project using Spring Boot for managing resources
-                    such as Drinks, Food, Pizza, and Spirits. The application follows
-                    the MVC architecture and provides full CRUD functionality with
-                    PostgreSQL as the database and Thymeleaf as the web interface.
+                    Team-developed web application built with Spring Boot for managing
+                    Drink, Food, Pizza and Spirit resources. The application follows the
+                    MVC architecture and provides full CRUD functionality using
+                    Thymeleaf as the presentation layer and PostgreSQL (Neon) as the
+                    database. I Dockerized the application and deployed it to Render.
                 </p>
 
                 <p>
-                    I was responsible for the entire Drink module, including entity design,
-                    controller, service, repository and validation layers, custom exceptions,
-                    Thymeleaf views, and both unit and integration tests. I also created the
-                    Docker configuration, built Docker images, and deployed the application
-                    to Render. As an individual extension, I implemented Jenkins-based
-                    Continuous Integration, Logback logging, and integration tests using
-                    MockMvc and H2.
+                    My primary responsibility was developing the Drink module, including
+                    the controller, service, repository, validation logic and custom
+                    exceptions. As an individual extension, I implemented a Jenkins-based
+                    build pipeline using Maven Wrapper, Logback logging, and integration
+                    tests with Spring Boot, MockMvc and H2 to automate the build,
+                    testing and quality assurance process.
                 </p>
             </div>
 
@@ -356,17 +385,16 @@
                 <span>Hibernate</span>
                 <span>Thymeleaf</span>
                 <span>PostgreSQL</span>
-                <span>H2</span>
-                <span>JUnit 5</span>
-                <span>Mockito</span>
-                <span>MockMvc</span>
+                <span>Neon</span>
                 <span>Docker</span>
                 <span>Render</span>
                 <span>Jenkins</span>
                 <span>CI/CD</span>
+                <span>MockMvc</span>
+                <span>JUnit 5</span>
+                <span>H2</span>
                 <span>Logback</span>
                 <span>Maven</span>
-                <span>MVC</span>
             </div>
         </article>
 
@@ -374,18 +402,29 @@
             <div>
                 <h3>ATM System – Spring Boot Application with Unit and End-to-End Testing</h3>
 
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 3: Java Tools and Build Environments</span>
+                </div>
+
                 <p>
-                    Developed a Spring Boot application following a layered architecture
-                    to simulate core ATM functionality such as deposits, withdrawals,
-                    and balance management. The application uses Thymeleaf for presentation
-                    and implements custom exception handling to enforce business rules.
+                    Individual Spring Boot application developed using a layered
+                    architecture (Controller, Service and Component) to simulate
+                    core ATM functionality such as deposits, withdrawals and
+                    balance management. The application uses Thymeleaf as the
+                    presentation layer and implements custom exception handling
+                    for business rules.
                 </p>
 
                 <p>
-                    Implemented transaction validation, balance management, and withdrawal
-                    constraints. The project was supported by extensive automated testing,
-                    including JUnit 5 for unit tests, Mockito for isolated service-layer
-                    testing, and Playwright for end-to-end testing of the web interface.
+                    Implemented business logic for transaction validation,
+                    balance management and withdrawal limits. The project
+                    includes comprehensive testing using JUnit 5 for unit tests,
+                    Mockito for isolated service-layer testing, and Playwright
+                    for end-to-end testing of the web interface. The tests verify
+                    both expected user workflows and exception handling to ensure
+                    reliable application behavior throughout the stack.
                 </p>
             </div>
 
@@ -409,22 +448,31 @@
 
         <article class="project-card">
             <div>
-                <h3>Team Project – Spring Boot MVC Application with Thymeleaf</h3>
+                <h3>Spring Boot MVC Application with Thymeleaf</h3>
+
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work group">Team Project</span>
+                    <span class="project-course">Course 3: Java Tools and Build Environments</span>
+                </div>
 
                 <p>
-                    Collaborated on the development of a web application built with
-                    Spring Boot and Thymeleaf following the MVC architecture.
-                    The application consists of multiple functional modules for
-                    managing and displaying users, bookings, ratings, tags,
-                    comments, tasks, and queue management.
+                    Team-developed web application built with Spring Boot and
+                    Thymeleaf following the MVC (Model–View–Controller)
+                    architecture. The application consists of several functional
+                    modules for managing and presenting users, people,
+                    reservations, grades, tags, comments, assignments and queue
+                    management through dedicated controllers, models and views.
                 </p>
 
                 <p>
-                    Contributed to both backend and frontend development by implementing
-                    Spring MVC controllers, creating domain models, and building dynamic
-                    Thymeleaf views. The project provided hands-on experience with routing,
-                    model binding, data transfer between controllers and views, and
-                    structuring Java web applications according to established design principles.
+                    Contributed to both backend development and the web interface
+                    by implementing Spring MVC controllers, creating domain
+                    models and developing dynamic Thymeleaf views. The project
+                    provided practical experience with routing, passing data
+                    between controllers and views, working with model objects,
+                    and structuring a Java web application according to
+                    established design principles.
                 </p>
             </div>
 
@@ -435,10 +483,12 @@
                 <span>Thymeleaf</span>
                 <span>MVC</span>
                 <span>HTML</span>
+                <span>Model-View-Controller</span>
+                <span>Routing</span>
                 <span>Dependency Injection</span>
                 <span>Maven</span>
                 <span>Git</span>
-                <span>Team Collaboration</span>
+                <span>Teamwork</span>
             </div>
         </article>
 
@@ -446,20 +496,27 @@
             <div>
                 <h3>Chat Application with Java and Spring Boot</h3>
 
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 2: Database Development</span>
+                </div>
+
                 <p>
-                    Developed a client-server chat application that allows multiple
-                    users to connect simultaneously, create accounts, log in, and
-                    exchange messages in real time. Communication between the client
-                    and server is handled using Java Sockets, while the server
-                    supports concurrent users through multithreading.
+                    Developed a client-server chat application where multiple
+                    users can connect simultaneously, register accounts, log in
+                    and exchange messages in real time. Communication between
+                    clients and the server is handled using Java Sockets, while
+                    the server manages multiple concurrent clients through
+                    multithreading.
                 </p>
 
                 <p>
-                    Implemented persistent storage for users and chat history using
-                    Spring Boot, Spring Data JPA, Hibernate, and MySQL. The project
+                    Implemented persistent storage of users and chat history
+                    using Spring Boot, Spring Data JPA and MySQL. The application
                     follows a layered architecture with separate service,
-                    repository, and domain layers, and includes unit tests written
-                    with JUnit 5 and Mockito.
+                    repository and domain layers, and includes unit tests written
+                    with JUnit and Mockito.
                 </p>
             </div>
 
@@ -479,18 +536,24 @@
             <div>
                 <h3>Database Access with JDBC</h3>
 
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 2: Database Development</span>
+                </div>
+
                 <p>
-                    Laboratory project focused on Java Database Connectivity (JDBC)
-                    and relational databases. Implemented database connectivity to
-                    MySQL and developed functionality for storing and retrieving data
-                    using SQL queries.
+                    Laboratory project focused on Java Database Connectivity
+                    (JDBC) and relational databases. Implemented database
+                    connectivity to MySQL and functionality for storing and
+                    retrieving data using SQL queries.
                 </p>
 
                 <p>
-                    The project applies the DAO pattern to separate database logic
-                    from application logic and includes connection management,
-                    PreparedStatements, and mapping between database tables and
-                    Java objects.
+                    The project applies the DAO pattern to separate database
+                    logic from application logic and includes database
+                    connections, PreparedStatements, and mapping between
+                    relational database tables and Java objects.
                 </p>
             </div>
 
@@ -506,18 +569,25 @@
 
         <article class="project-card">
             <div>
-                <h3>Database Design and SQL</h3>
+                <h3>Database Modeling and SQL</h3>
+
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 2: Database Development</span>
+                </div>
 
                 <p>
                     Laboratory project focused on relational databases and SQL.
-                    Designed databases and tables, defined primary and foreign keys,
-                    and performed CRUD operations for data management.
+                    Created databases and tables, defined primary and foreign
+                    keys, and implemented CRUD operations for managing data.
                 </p>
 
                 <p>
-                    The project also included database normalization according to the
-                    First Normal Form (1NF), relational data modeling, and the use of
-                    SQL JOIN queries to retrieve related data across multiple tables.
+                    The project also covered database normalization according to
+                    First Normal Form (1NF), relationship modeling between
+                    tables, and SQL JOIN queries to retrieve related information
+                    from multiple tables.
                 </p>
             </div>
 
@@ -535,16 +605,23 @@
             <div>
                 <h3>MongoDB and NoSQL Databases</h3>
 
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 2: Database Development</span>
+                </div>
+
                 <p>
                     Laboratory project focused on document-oriented databases and
-                    MongoDB. Implemented a DAO layer in Java to manage data storage and
-                    retrieval from a cloud-hosted MongoDB database using MongoDB Atlas.
+                    MongoDB. Implemented a DAO layer in Java to manage storing and
+                    retrieving data from a cloud-hosted MongoDB database
+                    (MongoDB Atlas).
                 </p>
 
                 <p>
-                    The project included CRUD operations, document filtering, updates,
-                    and deletions, as well as the use of the MongoDB Java Driver for
-                    communication between the application and the database.
+                    The project included CRUD operations, filtering, updating and
+                    deleting documents, as well as using the MongoDB Java Driver
+                    to communicate between the application and the database.
                 </p>
             </div>
 
@@ -555,6 +632,117 @@
                 <span>MongoDB Atlas</span>
                 <span>CRUD</span>
                 <span>DAO Pattern</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div>
+                <h3>Text-Based Adventure Game</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 1: Java Programming</span>
+                </div>
+
+                <p>
+                    Individual extension of a text-based adventure game based on a
+                    provided starter project. The game is built using
+                    object-oriented principles where the player explores different
+                    environments, battles enemies, collects items and develops
+                    their character.
+                </p>
+
+                <p>
+                    Implemented new game areas, enemies and gameplay mechanics, as
+                    well as file-based statistics storage using the DAO pattern, a
+                    high-score leaderboard, the Builder pattern for player
+                    creation, and the Singleton pattern for application
+                    configuration.
+                </p>
+            </div>
+
+            <div class="tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>Design Patterns</span>
+                <span>Builder Pattern</span>
+                <span>Singleton Pattern</span>
+                <span>DAO Pattern</span>
+                <span>File Persistence</span>
+                <span>Console Application</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div>
+                <h3>Console-Based Webshop</h3>
+
+                <div class="project-meta">
+                    <span class="project-type project">Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 1: Java Programming</span>
+                </div>
+
+                <p>
+                    Developed a console-based webshop in Java where users can
+                    create, search for and browse products. The application
+                    applies object-oriented design using inheritance, abstract
+                    classes and polymorphism to support multiple product types.
+                </p>
+
+                <p>
+                    Implemented file-based persistence through object
+                    serialization to save and restore products between executions,
+                    as well as support for both console-based and dialog-based
+                    user interfaces through a shared interface.
+                </p>
+            </div>
+
+            <div class="tags">
+                <span>Java</span>
+                <span>OOP</span>
+                <span>Inheritance</span>
+                <span>Polymorphism</span>
+                <span>Interfaces</span>
+                <span>Serialization</span>
+                <span>File I/O</span>
+                <span>Console Application</span>
+            </div>
+        </article>
+
+        <article class="project-card">
+            <div>
+                <h3>Java Fundamentals – Methods and Arrays</h3>
+
+                <div class="project-meta">
+                    <span class="project-type lab">Laboratory Project</span>
+                    <span class="project-work individual">Individual</span>
+                    <span class="project-course">Course 1: Java Programming</span>
+                </div>
+
+                <p>
+                    One of the first programming assignments during the program,
+                    focusing on the fundamentals of Java. The project covers
+                    methods, arrays, loops, parameters and return values to build
+                    a solid understanding of the language's core concepts.
+                </p>
+
+                <p>
+                    Implemented functionality for printing arrays, finding the
+                    largest value, and creating methods with parameters and return
+                    values. The project laid the foundation for later
+                    object-oriented programming projects.
+                </p>
+            </div>
+
+            <div class="tags">
+                <span>Java</span>
+                <span>Methods</span>
+                <span>Arrays</span>
+                <span>Loops</span>
+                <span>Parameters</span>
+                <span>Return Values</span>
             </div>
         </article>
     </section>
